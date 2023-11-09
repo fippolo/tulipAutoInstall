@@ -1,4 +1,5 @@
 #!/bin/sh
+#todo: comment
 apt update
 apt install ca-certificates curl gnupg -y
 install -m 0755 -d /etc/apt/keyrings
@@ -18,4 +19,3 @@ git clone https://github.com/OpenAttackDefenseTools/tulip.git
 cd tulip
 cp .env.example .env
 docker compose up -d
-
