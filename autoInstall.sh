@@ -17,7 +17,5 @@ apt install docker-compose -y
 git clone https://github.com/OpenAttackDefenseTools/tulip.git
 cd tulip
 cp .env.example .env
-cd services
-
-docker-compose up -d --build
+docker compose up -d
 
